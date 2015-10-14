@@ -14,6 +14,10 @@
 		E1A42AF11BCE310E00C25BD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A42AF01BCE310E00C25BD4 /* Images.xcassets */; };
 		E1A42AF41BCE310E00C25BD4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A42AF21BCE310E00C25BD4 /* LaunchScreen.xib */; };
 		E1A42B001BCE310E00C25BD4 /* Stars_FieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A42AFF1BCE310E00C25BD4 /* Stars_FieldTests.m */; };
+		E1A42B0E1BCE312800C25BD4 /* brown.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A42B0A1BCE312800C25BD4 /* brown.png */; };
+		E1A42B0F1BCE312800C25BD4 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A42B0B1BCE312800C25BD4 /* green.png */; };
+		E1A42B101BCE312800C25BD4 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A42B0C1BCE312800C25BD4 /* red.png */; };
+		E1A42B111BCE312800C25BD4 /* violet.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A42B0D1BCE312800C25BD4 /* violet.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		E1A42AF91BCE310E00C25BD4 /* Stars FieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stars FieldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A42AFE1BCE310E00C25BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1A42AFF1BCE310E00C25BD4 /* Stars_FieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stars_FieldTests.m; sourceTree = "<group>"; };
+		E1A42B0A1BCE312800C25BD4 /* brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown.png; sourceTree = "<group>"; };
+		E1A42B0B1BCE312800C25BD4 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		E1A42B0C1BCE312800C25BD4 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		E1A42B0D1BCE312800C25BD4 /* violet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = violet.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		E1A42AE21BCE310E00C25BD4 /* Stars Field */ = {
 			isa = PBXGroup;
 			children = (
+				E1A42B091BCE311500C25BD4 /* Photo */,
 				E1A42AE71BCE310E00C25BD4 /* AppDelegate.h */,
 				E1A42AE81BCE310E00C25BD4 /* AppDelegate.m */,
 				E1A42AEA1BCE310E00C25BD4 /* ViewController.h */,
@@ -117,6 +126,17 @@
 				E1A42AFE1BCE310E00C25BD4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1A42B091BCE311500C25BD4 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				E1A42B0A1BCE312800C25BD4 /* brown.png */,
+				E1A42B0B1BCE312800C25BD4 /* green.png */,
+				E1A42B0C1BCE312800C25BD4 /* red.png */,
+				E1A42B0D1BCE312800C25BD4 /* violet.png */,
+			);
+			name = Photo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +219,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1A42B0E1BCE312800C25BD4 /* brown.png in Resources */,
 				E1A42AEF1BCE310E00C25BD4 /* Main.storyboard in Resources */,
+				E1A42B0F1BCE312800C25BD4 /* green.png in Resources */,
+				E1A42B101BCE312800C25BD4 /* red.png in Resources */,
+				E1A42B111BCE312800C25BD4 /* violet.png in Resources */,
 				E1A42AF41BCE310E00C25BD4 /* LaunchScreen.xib in Resources */,
 				E1A42AF11BCE310E00C25BD4 /* Images.xcassets in Resources */,
 			);
